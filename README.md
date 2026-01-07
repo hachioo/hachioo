@@ -1,6 +1,6 @@
 ## 💻 My System Fetch
 <div align="center">
-  <img src="./terminal.svg" alt="Windows Fetch" width="750">
+  <img src="./terminal.svg" width="720" alt="My System Stats">
 </div>
 
 # About Me:
