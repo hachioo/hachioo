@@ -41,26 +41,29 @@
 /////////////////  ///////////////// </text>
 
             <g transform="translate(300, 0)">
+                <text y="0" class="label">User</text>
+                <text x="110" y="0" class="foreground">Kotakun11</text>
+                
                 <text y="0" class="label">OS</text>
-                <text x="110" y="0" class="foreground">Windows 11 Home x86_64</text>
+                <text x="110" y="25" class="foreground">Windows 11 Home x86_64</text>
                 
                 <text y="25" class="label">Host</text>
-                <text x="110" y="25" class="foreground">ASUS TUF Gaming A15</text>
+                <text x="110" y="50" class="foreground">ASUS TUF Gaming A15</text>
                 
                 <text y="50" class="label">Shell</text>
-                <text x="110" y="50" class="foreground">PowerShell 7.5.4</text>
+                <text x="110" y="75" class="foreground">PowerShell 7.5.4</text>
                 
                 <text y="75" class="label">CPU</text>
-                <text x="110" y="75" class="foreground">AMD Ryzen 7 7435HS</text>
+                <text x="110" y="100" class="foreground">AMD Ryzen 7 7435HS</text>
                 
                 <text y="100" class="label">GPU</text>
-                <text x="110" y="100" class="foreground">NVIDIA RTX 4060 Laptop</text>
+                <text x="110" y="125" class="foreground">NVIDIA RTX 4060 Laptop</text>
                 
                 <text y="125" class="label">Memory</text>
-                <text x="110" y="125" class="foreground">24GB DDR5</text>
+                <text x="110" y="150" class="foreground">24GB DDR5</text>
                 
                 <text y="150" class="label">Hardware</text>
-                <text x="110" y="150" class="foreground">PCB Design &amp; IoT</text>
+                <text x="110" y="175" class="foreground">PCB Design &amp; IoT</text>
             </g>
             
             <g transform="translate(300, 190)">
