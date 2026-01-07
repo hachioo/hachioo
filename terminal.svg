@@ -3,26 +3,24 @@
         <style type="text/css"><![CDATA[
             #screen { font-family: 'DejaVu Sans Mono', monospace; font-size: 14px; }
             text { dominant-baseline: text-before-edge; white-space: pre; }
-            :root { --animation-duration: 10s; }
-            @keyframes roll { 
-                0% {transform:translateY(0px)} 
-                100% {transform:translateY(0px)} 
-            }
-            #screen_view { animation: roll var(--animation-duration) steps(1,end) infinite; }
-            .foreground {fill: #BFBDB6;}
-            .background {fill: #131721;}
-            .background-alt {fill: #0B0E14}
-            .color1 {fill: #D95757;} .color2 {fill: #7FD962;} .color3 {fill: #FFB454;}
-            .color4 {fill: #39BAE6;} .color9 {fill: #F07178;} .color15 {fill: #BFBDB6;}
+            .foreground { fill: #BFBDB6; }
+            .background { fill: #131721; }
+            .background-alt { fill: #0B0E14; }
+            .label { fill: #FFB454; font-weight: bold; }
+            .color1 { fill: #D95757; } .color2 { fill: #7FD962; } .color3 { fill: #FFB454; }
+            .color4 { fill: #39BAE6; } .color5 { fill: #D2A6FF; } .color6 { fill: #59C2FF; }
         ]]></style>
     </defs>
+    
     <rect id="terminalui" class="background-alt" width="100%" height="100%" ry="12"/>
     <circle cx="24" cy="23" r="7" class="color1"/>
     <circle cx="44" cy="23" r="7" class="color3"/>
     <circle cx="64" cy="23" r="7" class="color2"/>
+    
     <svg id="screen" width="720" height="400" y="50">
         <rect class="background" height="100%" width="100%"/>
-        <g id="screen_view" transform="translate(40, 40)">
+        
+        <g transform="translate(50, 40)">
             <text x="0" y="0" font-weight="bold" fill="#39BAE6">
 ################  ################
 ################  ################
@@ -39,31 +37,35 @@
 ################  ################</text>
 
             <g transform="translate(300, 0)">
-                <text y="0" font-weight="bold" fill="#FFB454">os          </text>
-                <text x="120" y="0" class="foreground">Windows 11 Home</text>
+                <text y="0" class="label">OS</text>
+                <text x="110" y="0" class="foreground">Windows 11 Home x86_64</text>
                 
-                <text y="20" font-weight="bold" fill="#FFB454">shell       </text>
-                <text x="120" y="20" class="foreground">PowerShell 7.5.4</text>
+                <text y="25" class="label">Host</text>
+                <text x="110" y="25" class="foreground">ASUS TUF Gaming A15</text>
                 
-                <text y="40" font-weight="bold" fill="#FFB454">cpu         </text>
-                <text x="120" y="40" class="foreground">AMD Ryzen 7 7435HS</text>
+                <text y="50" class="label">Shell</text>
+                <text x="110" y="50" class="foreground">PowerShell 7.5.4</text>
                 
-                <text y="60" font-weight="bold" fill="#FFB454">gpu         </text>
-                <text x="120" y="60" class="foreground">NVIDIA RTX 4060 Laptop</text>
+                <text y="75" class="label">CPU</text>
+                <text x="110" y="75" class="foreground">AMD Ryzen 7 7435HS</text>
                 
-                <text y="80" font-weight="bold" fill="#FFB454">languages   </text>
-                <text x="120" y="80" class="foreground">JS, TS, Python, C++</text>
+                <text y="100" class="label">GPU</text>
+                <text x="110" y="100" class="foreground">NVIDIA RTX 4060 Laptop</text>
                 
-                <text y="100" font-weight="bold" fill="#FFB454">help_with   </text>
-                <text x="120" y="100" class="foreground">PCB Design & IoT</text>
+                <text y="125" class="label">Memory</text>
+                <text x="110" y="125" class="foreground">24GB DDR5</text>
+                
+                <text y="150" class="label">Hardware</text>
+                <text x="110" y="150" class="foreground">PCB Design &amp; IoT</text>
             </g>
             
-            <g transform="translate(300, 140)">
-                <rect width="30" height="20" class="color1" x="0"/>
-                <rect width="30" height="20" class="color2" x="40"/>
-                <rect width="30" height="20" class="color3" x="80"/>
-                <rect width="30" height="20" class="color4" x="120"/>
-                <rect width="30" height="20" class="color15" x="160"/>
+            <g transform="translate(300, 190)">
+                <rect width="25" height="15" class="color1" x="0"/>
+                <rect width="25" height="15" class="color2" x="30"/>
+                <rect width="25" height="15" class="color3" x="60"/>
+                <rect width="25" height="15" class="color4" x="90"/>
+                <rect width="25" height="15" class="color5" x="120"/>
+                <rect width="25" height="15" class="color6" x="150"/>
             </g>
         </g>
     </svg>
