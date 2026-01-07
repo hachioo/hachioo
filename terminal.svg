@@ -66,7 +66,7 @@
                 <text x="110" y="175" class="foreground">PCB Design &amp; IoT</text>
             </g>
             
-            <g transform="translate(300, 280)">
+            <g transform="translate(300, 265)">
                 <rect width="25" height="15" class="color1" x="0"/>
                 <rect width="25" height="15" class="color2" x="30"/>
                 <rect width="25" height="15" class="color3" x="60"/>
