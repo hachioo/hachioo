@@ -4,7 +4,7 @@
 </div>
 
 # About Me:
-🔭 I’m currently working on<br><br>    The Specifics: "Building nothing right now."<br><br>Soft Skills: "Technical writing and clear documentation."<br><br>💬 Ask me about<br><br>    Technical Problems: " I used to work as a Technician so i can support you. "<br><br>    Hobbies: "Photography, mechanical keyboards, Repairing."<br><br>Fun fact about me<br><br>    "I listen to music for 20 hours everyday ."<br><br>    "The volume is always at 70% or higher (Because i love Rock & Metal)."<br><br>    "I love Gacha games."
+🔭 I’m currently working on<br><br>    The Specifics: "Building nothing right now."<br><br>Soft Skills: "Technical writing and clear documentation."<br><br>💬 Ask me about<br><br>    Technical Problems: " I used to work as a Technician so i can support you. "<br><br>    Hobbies: "Photography, mechanical keyboards, Repairing."<br><br>Fun fact: <br><br>    "I listen to music for 20 hours everyday ."<br><br>    "The volume is always at 70% or higher (Because i love Rock & Metal)."<br><br>    "I love Gacha games."
 
 
 ## Socials:
